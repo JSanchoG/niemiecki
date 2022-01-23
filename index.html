@@ -1,0 +1,431 @@
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Niemiecki</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+    <link href="https://tihub.pl/css/tihub.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+        rel="stylesheet" type="text/css">
+
+    <link rel="shortcut icon" href="https://tihub.pl/icons/tihub.ico">
+    <style>
+        body {
+            letter-spacing: 0px;
+        }
+
+        article {
+            margin-top: 7.5vh;
+            margin-bottom: 7.5vh;
+        }
+
+        a {
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+
+        #search-bar {
+            position: fixed;
+            top: 2.5vh;
+            text-align: center;
+            z-index: 999;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        #spacing {
+            position: fixed;
+            bottom: 2.5vh;
+            text-align: center;
+            z-index: 999;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 17.5vh;
+        }
+
+        .blue {
+            color: #2828B3;
+        }
+
+        .green {
+            color: #65D449;
+        }
+
+        .b {
+            border-left: 2px solid #2828B3;
+        }
+
+        .g {
+            border-left: 2px solid #65D449;
+        }
+
+        li {
+            transition: all .1s ease-in;
+            margin-top: 7.5px;
+            margin-bottom: 2.5px;
+            border-radius: 5px;
+            border-top-width: 1 !important;
+        }
+
+        .badge41::before {
+            background-color: #2828B3;
+            width: 37.5px;
+            height: 25px;
+            padding-top: 3.5px;
+            margin-right: 7.5px;
+            color: #FFFFFF;
+            font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            display: inline-block;
+            content: "4.1";
+            font-size: 1rem;
+            border-radius: 5px;
+        }
+
+        .badge42::before {
+            background-color: #2828B3;
+            width: 37.5px;
+            height: 25px;
+            padding-top: 3.5px;
+            margin-right: 7.5px;
+            color: #FFFFFF;
+            font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            display: inline-block;
+            content: "4.2";
+            font-size: 1rem;
+            border-radius: 5px;
+        }
+
+        .badge43::before {
+            background-color: #2828B3;
+            width: 37.5px;
+            height: 25px;
+            padding-top: 3.5px;
+            margin-right: 7.5px;
+            color: #FFFFFF;
+            font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            display: inline-block;
+            content: "4.3";
+            font-size: 1rem;
+            border-radius: 5px;
+        }
+
+        .text-secondary::before {
+            content: "»";
+            color: red;
+            font-size: 1.2em;
+            padding-right: 4px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="search-bar">
+        <input type="text" class="form-control rounded" placeholder="Szukaj..." id="searchbar" onkeyup="searchBar()">
+    </div>
+    <div id="spacing">
+        <input type="range" class="form-range" min="1" max="5" step="1" value="1" id="range">
+    </div>
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="list-group">
+                        <a class="sbt">
+                            <h3 class="list-group-item-heading badge41 blue" style="margin:8px">Umawianie
+                                się na
+                                wspólne wyjście</h3>
+                        </a>
+                        <li class="list-group-item sbt b"><b>Wir konnen uns um 18 Uhr treffen.</b><br><span
+                                class="text-secondary">Wir können uns um 18 Uhr treffen.</span><br>Możemy się spotkać
+                            o
+                            godz. 18.</li>
+                        <li class="list-group-item sbt b"><b>Wollen wir zusammen dahin gehen?</b><br>Pójdziemy tam
+                            razem?
+                        </li>
+                        <li class="list-group-item sbt b"><b>Was haltst du von meiner Idee?</b><br><span
+                                class="text-secondary">Was hältst du von meiner Idee?</span><br>Co sądzisz o moim
+                            pomyśle?
+                        </li>
+                        <li class="list-group-item sbt b"><b>Danke fur die Einladung!</b><br><span
+                                class="text-secondary">Danke für die Einladung!</span><br>Dziękuję za zaproszenie!
+                        </li>
+                        <li class="list-group-item sbt b"><b>Ich komme sehr gern ins Theater mit!</b><br>Chętnie pójdę
+                            (razem
+                            z wami / tobą) do teatru!</li>
+                        <li class="list-group-item sbt b"><b>Gute Idee! Ich bin dabei.</b><br>Dobry pomysł! Chętnie się
+                            przyłączę.</li>
+                        <li class="list-group-item sbt b"><b>Ich wurde gern kommen, aber morgen fahren wir nach
+                                Koln.</b><br><span class="text-secondary">Ich würde gern kommen, aber morgen fahren wir
+                                nach Köln.</span><br>Chętnie bym przyszedł, ale jutro jedziemy do Kolonii.</li>
+                        <li class="list-group-item sbt b"><b>Klingt spannend.</b><br>Brzmi interesująco.</li>
+                        <li class="list-group-item sbt b"><b>Ich mochte das Stuck nicht verpassen!</b><br><span
+                                class="text-secondary">Ich möchte das Stück nicht verpassen!</span><br>Nie chciałbym
+                            przegapić tej sztuki!</li>
+                        <li class="list-group-item sbt b"><b>Ich mochte heute Abend tanzen gehen. Hast du
+                                Lust?</b><br><span class="text-secondary">Ich möchte heute Abend tanzen gehen. Hast du
+                                Lust?</span><br>Chciałbym pójść dzisiaj wieczorem potańczyć. Czy miałabyś ochotę?</li>
+                        <li class="list-group-item sbt b"><b>Der Samstagabend paast uns gut.</b><br>Sobota wieczorem nam
+                            odpowiada.</li>
+                        <li class="list-group-item sbt b"><b>Am Freitag habe ich leider keine Zeit.</b><br>W piątek
+                            niestety nie mam czasu.</li>
+                        <li class="list-group-item sbt b"><b>Mochtest du ins Kino gehen? Ich habe zwei Eintrittskarten
+                                fur heute Abend.</b><br><span class="text-secondary">Möchtest du ins Kino gehen? Ich
+                                habe zwei Eintrittskarten
+                                fur heute Abend.</span><br>Czy poszedłbyś do kinda? Mam dwa bilety na dzisiejszy
+                            wieczór.
+                        </li>
+                        <li class="list-group-item sbt b"><b>Abgemacht. Wir sehen uns in der Disco.</b><br>Zgoda.
+                            Widzimy
+                            się na dyskotece.</li>
+
+                    </div>
+                    <div class="list-group">
+                        <a class="sbt"><br>
+                            <h3 class="list-group-item-heading badge41 blue" style="margin:8px">Zwroty</h3>
+                        </a>
+                        <li class="list-group-item sbt b"><b>auftreten</b><br>występować (np. na scenie)</li>
+                        <li class="list-group-item sbt b"><b>eine Klassenfahrt machen</b><br>wybierać się na wycieczkę
+                            szkolną</li>
+                        <li class="list-group-item sbt b"><b>einen Vortrag / eine Vorlesung halten</b><br>mieć wykład
+                        </li>
+                    </div>
+                    <div class="list-group">
+                        <a class="sbt"><br>
+                            <h3 class="list-group-item-heading badge41 green" style="margin:8px">Rzeczowniki</h3>
+                        </a>
+                        <li class="list-group-item sbt g"><b>das / der Event, -s</b><br>impreza; wydarzenie</li>
+                        <li class="list-group-item sbt g"><b>die Familienkomodie, -n</b><br><span
+                                class="text-secondary">die Familienkomödie, -n</span><br>komedia familijna</li>
+                        <li class="list-group-item sbt g"><b>die Filmvorfuhrung, -en</b><br><span
+                                class="text-secondary">die Filmvorführung, -en</span><br>projekcja filmu</li>
+                        <li class="list-group-item sbt g"><b>das Gedicht, -e</b><br>wiersz</li>
+                        <li class="list-group-item sbt g"><b>die Kurzgeschichte, -n</b><br>krótkie opowiadanie</li>
+                        <li class="list-group-item sbt g"><b>die Lesung, -en</b><br>wieczór autorski; odczyt</li>
+                        <li class="list-group-item sbt g"><b>der Roman, -e</b><br>powieść</li>
+                        <li class="list-group-item sbt g"><b>die Theaterauffuhrung, -en</b><br><span
+                                class="text-secondary">die Theateraufführung, -en</span><br>przedstawienie teatralne
+                        </li>
+                        <li class="list-group-item sbt g"><b>die Wissenschaft, -en</b><br>nauka (wiedza)</li>
+                        <li class="list-group-item sbt g"><b>der Veranstaltungskalender, -</b><br>kalendarz imprez</li>
+                        <li class="list-group-item sbt g"><b>die Vorlesung, -en</b><br>wykład</li>
+                        <li class="list-group-item sbt g"><b>das Vorspiel, -e</b><br>próbna prezentacja utworu
+                            muzycznego;
+                            próbny występ / koncert</li>
+                    </div>
+                    <div class="list-group">
+                        <a class="sbt"><br>
+                            <h3 class="list-group-item-heading badge42 blue" style="margin:8px">Gatunki Filmowe</h3>
+                        </a>
+                        <li class="list-group-item sbt b"><b>der Actionfilm, -e</b><br>film akcji</li>
+                        <li class="list-group-item sbt b"><b>der Animationsfilm, -e</b><br>film animowany</li>
+                        <li class="list-group-item sbt b"><b>der Dokumentarfilm, -e</b><br>film dokumentalny</li>
+                        <li class="list-group-item sbt b"><b>der Familienfilm, -e</b><br>film familijny</li>
+                        <li class="list-group-item sbt b"><b>der Fantasyfilm, -e</b><br>film z gatunku fantasy</li>
+                        <li class="list-group-item sbt b"><b>der Horrorfilm, -e</b><br>horror</li>
+                        <li class="list-group-item sbt b"><b>die Komodie, -n</b><br><span class="text-secondary">die
+                                Komödie, -n</span><br>komedia</li>
+                        <li class="list-group-item sbt b"><b>die Liebesgeschichte, -n</b><br>historia miłosna</li>
+                        <li class="list-group-item sbt b"><b>die Literatureverfilmung, -en</b><br>ekranizacja literatury
+                        </li>
+                        <li class="list-group-item sbt b"><b>das Musical, -s</b><br>musical</li>
+                        <li class="list-group-item sbt b"><b>die Serie, -n</b><br>serial</li>
+                        <li class="list-group-item sbt b"><b>der Science-Fiction-Film, -e</b><br>film science fiction
+                        </li>
+                        <li class="list-group-item sbt b"><b>der Thriller, -</b><br>thriller</li>
+                    </div>
+                    <div class="list-group">
+                        <a class="sbt"><br>
+                            <h3 class="list-group-item-heading badge42 green" style="margin:8px">Rzeczowniki</h3>
+                        </a>
+                        <li class="list-group-item sbt g"><b>der Bericht, -e</b><br>relacja, sprawozdanie</li>
+                        <li class="list-group-item sbt g"><b>die Entscheidung, -en</b><br>decyzja</li>
+                        <li class="list-group-item sbt g"><b>das Erlebnis, -se</b><br>przeżycie</li>
+                        <li class="list-group-item sbt g"><b>das Happy End, - / Ends</b><br>happy end</li>
+                        <li class="list-group-item sbt g"><b>der Kinosaal, die Kinosale</b><br>sala kinowa</li>
+                        <li class="list-group-item sbt g"><b>der Konflikt, -e</b><br>konflikt</li>
+                        <li class="list-group-item sbt g"><b>die Satire, -n</b><br>satyra</li>
+                        <li class="list-group-item sbt g"><b>die Spannung</b><br>napięcie</li>
+                    </div>
+                    <div class="list-group">
+                        <a class="sbt"><br>
+                            <h3 class="list-group-item-heading badge42 blue" style="margin:8px">W Kinie</h3>
+                        </a>
+                        <li class="list-group-item sbt b"><b>die Eintrittskarten am Automaten kaufen</b><br>kupić bilety
+                            w
+                            biletomacie</li>
+                        <li class="list-group-item sbt b"><b>einen Film in 3-D sehen</b><br>oglądać film w 3D</li>
+                        <li class="list-group-item sbt b"><b>das Handy ausschalten</b><br>wyłączyć telefon</li>
+                        <li class="list-group-item sbt b"><b>die Karten im Internet reservieren</b><br>zarezerwować
+                            bilety
+                            w Internecie</li>
+                        <li class="list-group-item sbt b"><b>in der Schlange warten</b><br>czekać w kolejce</li>
+                        <li class="list-group-item sbt b"><b>Ich hatte gern einen Platz in der mittleren
+                                Reihe.</b><br><span class="text-secondary">Ich hätte gern einen Platz in der mittleren
+                                Reihe.</span><br>Poproszę miejsce w środkowym rzędzie.</li>
+                        <li class="list-group-item sbt b"><b>Ihr konnt euch die Sitzplatze selbst
+                                aussuchen.</b><br><span class="text-secondary">Ihr könnt euch die Sitzplätze selbst
+                                aussuchen.</span><br>Możecie sami wyszukać sobie miejsca.</li>
+                    </div>
+                    <div class="list-group">
+                        <a class="sbt"><br>
+                            <h3 class="list-group-item-heading badge42 blue" style="margin:8px">Zwroty</h3>
+                        </a>
+                        <li class="list-group-item sbt b"><b>Angst haben</b><br>bać się</li>
+                        <li class="list-group-item sbt b"><b>aufhoren</b><br><span
+                                class="text-secondary">aufhören</span><br>przestawać</li>
+                        <li class="list-group-item sbt b"><b>Lust haben</b><br>mieć ochotę</li>
+                        <li class="list-group-item sbt b"><b>die Moglichkeit haben</b><br><span
+                                class="text-secondary">die Möglichkeit haben</span><br>mieć możliwość</li>
+                    </div>
+                    <div class="list-group">
+                        <a class="sbt"><br>
+                            <h3 class="list-group-item-heading badge42 green" style="margin:8px">Przymiotniki</h3>
+                        </a>
+                        <li class="list-group-item sbt g"><b>bitter</b><br>gorzki</li>
+                        <li class="list-group-item sbt g"><b>wahr</b><br>prawdziwy</li>
+                    </div>
+                    <div class="list-group">
+                        <a class="sbt"><br>
+                            <h3 class="list-group-item-heading badge43 blue" style="margin:8px">Intrumenty Muzyczne</h3>
+                        </a>
+                        <li class="list-group-item sbt b"><b>das Musikintrument, -e</b><br>instrument muzyczny</li>
+                        <li class="list-group-item sbt b"><b>das Akkordeon, -s</b><br>akordeon</li>
+                        <li class="list-group-item sbt b"><b>das Cello, -s</b><br>wiolonczela</li>
+                        <li class="list-group-item sbt b"><b>der Flugel, -</b><br><span class="text-secondary">der
+                                Flügel, -</span><br>fortepian</li>
+                        <li class="list-group-item sbt b"><b>die Geige, -n</b><br>skrzypce</li>
+                        <li class="list-group-item sbt b"><b>die Gitarre, -n</b><br>gitara</li>
+                        <li class="list-group-item sbt b"><b>die Harfe, -n</b><br>harfa</li>
+                        <li class="list-group-item sbt b"><b>das Klavier, -e</b><br>pianino</li>
+                        <li class="list-group-item sbt b"><b>die Orgel, -n</b><br>organy</li>
+                        <li class="list-group-item sbt b"><b>die Percussion, -s</b><br>perkusja</li>
+                        <li class="list-group-item sbt b"><b>die Querflote, -n</b><br><span class="text-secondary">die
+                                Querflöte, -n</span><br>flet poprzeczny</li>
+                        <li class="list-group-item sbt b"><b>das Schlagzeug, -e</b><br>perkusja</li>
+                    </div>
+                    <div class="list-group">
+                        <a class="sbt"><br>
+                            <h3 class="list-group-item-heading badge43 blue" style="margin:8px">Gatunki Muzyczne</h3>
+                        </a>
+                        <li class="list-group-item sbt b"><b>die Musikrichtung, -en</b><br>styl muzyczny</li>
+                        <li class="list-group-item sbt b"><b>der Country</b><br>muzyka country</li>
+                        <li class="list-group-item sbt b"><b>der Funk</b><br>funk</li>
+                        <li class="list-group-item sbt b"><b>der Hip-Hop</b><br>hip-hop</li>
+                        <li class="list-group-item sbt b"><b>der Jazz</b><br>jazz</li>
+                        <li class="list-group-item sbt b"><b>die Klassik</b><br>muzyka klasyczna</li>
+                        <li class="list-group-item sbt b"><b>der Pop</b><br>pop</li>
+                        <li class="list-group-item sbt b"><b>der Rap</b><br>rap</li>
+                        <li class="list-group-item sbt b"><b>der Raggae</b><br>raggae</li>
+                        <li class="list-group-item sbt b"><b>der Rock</b><br>rock</li>
+                        <li class="list-group-item sbt b"><b>der Soul</b><br>soul</li>
+                    </div>
+                    <div class="list-group">
+                        <a class="sbt"><br>
+                            <h3 class="list-group-item-heading badge43 green" style="margin:8px">Rzeczowniki</h3>
+                        </a>
+                        <li class="list-group-item sbt g"><b>die Band, -s</b><br>zespół (muzyczny)</li>
+                        <li class="list-group-item sbt g"><b>das Lied, -er</b><br>piosenka</li>
+                        <li class="list-group-item sbt g"><b>der Liedtext, -e</b><br>tekst piosenki</li>
+                        <li class="list-group-item sbt g"><b>der Song, -s</b><br>piosenka</li>
+                    </div>
+                    <div class="list-group">
+                        <a class="sbt"><br>
+                            <h3 class="list-group-item-heading badge43 blue" style="margin:8px">Zwroty i Wyrażenia</h3>
+                        </a>
+                        <li class="list-group-item sbt b"><b>eine Bitte an jmdn. haben</b><br>mieć do kogoś prośbę</li>
+                        <li class="list-group-item sbt b"><b>Gesangsunterricht bekommen</b><br>pobierać lekcje śpiewu
+                        </li>
+                        <li class="list-group-item sbt b"><b>seine Songs selbst schreiben</b><br>samodzielnie / samemu
+                            pisać piosenki</li>
+                        <li class="list-group-item sbt b"><b>seine Songs schreiben lassen</b><br>zlecać napisanie
+                            piosenek (które się samemu wykonuje)</li>
+                        <li class="list-group-item sbt b"><b>veroffentlichen</b><br><span
+                                class="text-secondary">veröffentlichen</span><br>opublikować, wydać</li>
+                        <li class="list-group-item sbt b"><b>Was fur ein Quatsch!</b><br><span
+                                class="text-secondary">Was für ein Quatsch!</span><br>Co za nonsens!</li>
+                        <li class="list-group-item sbt b"><b>sich unterhalten uber etw. / jmdn.</b><br><span
+                                class="text-secondary">sich unterhalten über etw. / jmdn.</span><br>rozmawiać o czymś
+                            / kimś</li>
+                        <li class="list-group-item sbt b"><b>fur das Vorspiel uben</b><br><span
+                                class="text-secondary">für das Vorspiel üben</span><br>ćwiczyć przed koncertem
+                            próbnym</li>
+                    </div>
+                    <div class="list-group">
+                        <a class="sbt"><br>
+                            <h3 class="list-group-item-heading badge43 green" style="margin:8px">Czasownik <i>Lassen</i>
+                            </h3>
+                        </a>
+                        <li class="list-group-item sbt g"><b>lassen</b><br>zostawiać; kazać; pozwalać; zlecać; dawać się
+                            (być możliwym)</li>
+                        <li class="list-group-item sbt g"><b>Lass mich in Ruhe!</b><br>Zostaw mnie w spokoju!</li>
+                        <li class="list-group-item sbt g"><b>Lasst uns arbeiten!</b><br>Pozwólcie nam pracować!</li>
+                        <li class="list-group-item sbt g"><b>Lass von dir horen!</b><br>
+                            <span class="text-secondary">Lass von dir hören!</span><br>Odezwij się!
+                        </li>
+                        <li class="list-group-item sbt g"><b>Ich lasse meine Gitarre repaieren.</b><br>Oddam moją gitarę
+                            do naprawy.</li>
+                        <li class="list-group-item sbt g"><b>Wir lassen unser Klavier stimmen.</b><br>Oddamy pianino do
+                            nastrojenia.</li>
+                    </div>
+                    <!--
+<li class="list-group-item sbt b"><b></b><br></li>
+<li class="list-group-item sbt g"><b></b><br></li>
+<br><span class="text-secondary">üöä</span>
+-->
+                </div>
+            </div>
+        </div>
+    </article>
+    <script>
+        function searchBar() {
+            let input = document.getElementById('searchbar').value;
+            input = input.toLowerCase();
+            let x = document.getElementsByClassName('sbt');
+
+            for (i = 0; i < x.length; i++) {
+                if (!x[i].innerHTML.toLowerCase().includes(input)) {
+                    x[i].style.display = "none";
+                    //x[i].style.display="none";
+                    // Or this below (note each parentElement targets parent tag)
+                    // x[i].parentElement.parentElement.parentElement.parentElement.parentElement.style.display="none";
+                }
+                else {
+                    x[i].style.display = "block";
+                    //x[i].style.display="flex";                 
+                }
+            }
+        }
+    </script>
+    <script>
+        var slider = document.getElementById("range");
+        slider.oninput = function () {
+            if (slider.value == 1) {
+                document.body.style.letterSpacing = "0px";
+            } else if (slider.value == 2) {
+                document.body.style.letterSpacing = "0.5px";
+            } else if (slider.value == 3) {
+                document.body.style.letterSpacing = "1px";
+            } else if (slider.value == 4) {
+                document.body.style.letterSpacing = "1.5px";
+            } else if (slider.value == 5) {
+                document.body.style.letterSpacing = "2px";
+            }
+        }
+    </script>
+</body>
+
+</html>
